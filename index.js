@@ -6,7 +6,7 @@ const app=express();
 
 const mongoose=require("mongoose");
 const jwt= require("jsonwebtoken");
-const cors= require("cors");
+
 const multer= require("multer");
 const path = require("path");   // using this path we can get access to directories in backend development 
 
