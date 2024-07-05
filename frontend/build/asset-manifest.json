@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d1b29930.css",
+    "main.js": "/static/js/main.e5cab6c1.js",
+    "static/media/सफल खेती का मंत्र, कृषी बाजार का तंत्र.png": "/static/media/सफल खेती का मंत्र, कृषी बाजार का तंत्र.f1050c866cf7d6e7f902.png",
+    "static/media/lady image for exclusive offfer.png": "/static/media/lady image for exclusive offfer.883a3a3a1a1274eaf693.png",
+    "static/media/phone pay scanner.png": "/static/media/phone pay scanner.cc26f0dbe6daea396751.png",
+    "index.html": "/index.html",
+    "main.d1b29930.css.map": "/static/css/main.d1b29930.css.map",
+    "main.e5cab6c1.js.map": "/static/js/main.e5cab6c1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d1b29930.css",
+    "static/js/main.e5cab6c1.js"
+  ]
+}
