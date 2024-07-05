@@ -31,17 +31,8 @@ app.get("/", (req,res)=>
 });
 
 
-//for deployment : to connect frontend with backend :
 
 
-
-//API creations:
-
-app.get("/",(req,res)=>{
-
-    res.send("Express app is running");
-
-})
 
 // creating api for deleting products :
 
@@ -287,13 +278,12 @@ const upload=multer({storage:storage})
 // creating upload endpooints for images:
 app.use('/images', express.static(path.join(__dirname, 'upload/images'))); // whatever images store in upload/images we get it into /images 
 
-app.post("/upload",upload.single('product'),(req,res)=>{    //we creted "/upload to upload any images to the end point "
+app.post("/upload", upload.single('product'), (req, res) => {
     res.json({
-        success:1,
-        image_url:`http://localhost:4000/images/${req.file.filename}` // usiing image url we can accces to thr image 
-       
-    })
-})
+        success: 1,
+        image_url: `https://krushi-bajar.vercel.app/images/${req.file.filename}` // Change HTTP to HTTPS
+    });
+});
 
 
 // Example verification endpoint
