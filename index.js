@@ -13,7 +13,10 @@ const path = require("path");   // using this path we can get access to director
 
 const { error, log } = require("console");
 const { type } = require("os");
-
+const cors = require('cors');
+app.use(cors({
+    origin: 'https://krushi-bajar.vercel.app'  // Allow your frontend domain
+}));
 
 app.use(express.json());  // with the help of this whatever request that we get from response it get automaticaly parse through json
 
